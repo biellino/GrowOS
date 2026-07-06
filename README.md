@@ -1,5 +1,9 @@
 # GrowOS Core
 
-Site institucional minimalista da GrowOS Core.
+Site institucional do GrowOS Core.
 
-**Slogan:** Tecnologia que cultiva resultados.
+## Pilares públicos
+
+- Automação Industrial
+- Monitoramento em Tempo Real
+- Banco Genético

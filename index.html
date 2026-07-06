@@ -3,17 +3,72 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>GrowOS Core | Tecnologia que cultiva resultados</title>
   <meta name="description" content="GrowOS Core — Tecnologia que cultiva resultados." />
+  <title>GrowOS Core | Tecnologia que cultiva resultados</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css" />
 </head>
 <body>
-  <main class="splash" aria-label="GrowOS Core">
-    <img
-      src="assets/growos-identidade.png"
-      alt="GrowOS Core - Tecnologia que cultiva resultados"
-      class="brand-image"
-    />
+  <main class="page-shell">
+    <section class="hero" id="inicio" aria-label="Apresentação GrowOS">
+      <div class="ambient ambient-left"></div>
+      <div class="ambient ambient-right"></div>
+      <div class="grid-lines"></div>
+
+      <div class="hero-content">
+        <img class="brand-image" src="assets/growos-logo.png" alt="GrowOS Core - Tecnologia que cultiva resultados" />
+
+        <div class="hero-actions" aria-label="Ações principais">
+          <a class="btn btn-primary" href="https://app.growos.com.br">Entrar no GrowOS</a>
+          <a class="btn btn-secondary" href="#plataforma">Conheça a plataforma</a>
+        </div>
+      </div>
+
+      <a class="scroll-indicator" href="#plataforma" aria-label="Rolar para conhecer a plataforma">
+        <span></span>
+      </a>
+    </section>
+
+    <section class="platform" id="plataforma">
+      <div class="section-header reveal">
+        <span class="eyebrow">Plataforma</span>
+        <h1>Precisão em cada decisão.</h1>
+        <p>
+          O GrowOS Core integra automação industrial, monitoramento em tempo real e banco genético
+          em uma única plataforma desenvolvida para cultivos profissionais.
+        </p>
+      </div>
+
+      <div class="pillars">
+        <article class="pillar-card reveal">
+          <span class="icon">⚙</span>
+          <h2>Automação Industrial</h2>
+          <p>Processos padronizados, confiáveis e orientados por lógica operacional.</p>
+        </article>
+
+        <article class="pillar-card reveal">
+          <span class="icon">↗</span>
+          <h2>Monitoramento em Tempo Real</h2>
+          <p>Indicadores claros para acompanhar o cultivo e agir com segurança.</p>
+        </article>
+
+        <article class="pillar-card reveal">
+          <span class="icon">✦</span>
+          <h2>Banco Genético</h2>
+          <p>Histórico, rastreabilidade e organização técnica das genéticas cultivadas.</p>
+        </article>
+      </div>
+    </section>
   </main>
+
+  <footer class="footer">
+    <strong>GrowOS Core</strong>
+    <span>Tecnologia que cultiva resultados.</span>
+    <small>© 2026 GrowOS. Desenvolvido no Brasil.</small>
+  </footer>
+
+  <script src="js/script.js"></script>
 </body>
 </html>
