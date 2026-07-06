@@ -5,102 +5,99 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>GrowOS Core | Tecnologia que cultiva resultados</title>
   <meta name="description" content="GrowOS Core: plataforma para automação industrial, monitoramento em tempo real e banco genético para cultivos profissionais." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css" />
 </head>
 <body>
-  <header class="header">
-    <div class="brand">
-      <div class="brand-icon">🌱</div>
-      <div>
-        <strong>GrowOS</strong>
-        <span>Core</span>
-      </div>
-    </div>
-    <nav class="nav">
+  <div class="bg-grid"></div>
+  <header class="navbar">
+    <a class="brand" href="#top" aria-label="GrowOS">
+      <span class="brand-mark">G</span>
+      <span><strong>GrowOS</strong><small>Core</small></span>
+    </a>
+    <nav>
       <a href="#plataforma">Plataforma</a>
       <a href="#pilares">Pilares</a>
-      <a href="https://app.growos.com.br" class="nav-button">Entrar</a>
+      <a href="#contato">Contato</a>
+      <a class="nav-cta" href="https://app.growos.com.br">Entrar</a>
     </nav>
   </header>
 
-  <main>
+  <main id="top">
     <section class="hero">
-      <div class="hero-glow"></div>
-      <div class="hero-content fade-in">
-        <p class="eyebrow">GrowOS Core</p>
-        <h1>GrowOS</h1>
-        <h2>Tecnologia que cultiva resultados.</h2>
-        <p class="hero-text">
-          A plataforma desenvolvida para automatizar, monitorar e gerenciar cultivos profissionais com precisão, confiabilidade e simplicidade.
+      <div class="hero-content reveal">
+        <div class="eyebrow">GrowOS Core</div>
+        <h1>Tecnologia que cultiva resultados.</h1>
+        <p>
+          Plataforma desenvolvida para automatizar, monitorar e gerenciar cultivos profissionais
+          com precisão, confiabilidade e simplicidade.
         </p>
         <div class="hero-actions">
-          <a href="https://app.growos.com.br" class="button primary">Entrar no GrowOS</a>
-          <a href="#plataforma" class="button secondary">Conheça a plataforma</a>
+          <a class="btn primary" href="#plataforma">Conheça a plataforma</a>
+          <a class="btn secondary" href="https://app.growos.com.br">Entrar no GrowOS</a>
         </div>
       </div>
-    </section>
 
-    <section id="plataforma" class="section split">
-      <div class="section-text reveal">
-        <p class="eyebrow">Cultivo inteligente</p>
-        <h3>O futuro do cultivo profissional.</h3>
-        <p>
-          O GrowOS Core reúne automação industrial, monitoramento em tempo real e gestão genética em uma única plataforma, oferecendo controle completo sobre cada etapa do cultivo.
-        </p>
-      </div>
-      <div class="dashboard-card reveal">
-        <div class="dashboard-topbar">
-          <span></span><span></span><span></span>
+      <aside class="hero-panel reveal">
+        <div class="status-bar"><span></span><span></span><span></span></div>
+        <h3>GrowOS Dashboard</h3>
+        <div class="metrics">
+          <div><small>Ambiente</small><strong>Estável</strong></div>
+          <div><small>Automação</small><strong>Online</strong></div>
+          <div><small>Genética</small><strong>Ativa</strong></div>
         </div>
-        <div class="dashboard-grid">
-          <div class="metric"><small>Temperatura</small><strong>25,0 °C</strong></div>
-          <div class="metric"><small>Umidade</small><strong>65%</strong></div>
-          <div class="metric"><small>pH</small><strong>5,92</strong></div>
-          <div class="metric"><small>EC</small><strong>1,83</strong></div>
-          <div class="metric wide"><small>Status</small><strong>Ambiente estável</strong></div>
-          <div class="chart"></div>
-        </div>
-      </div>
+        <div class="chart"><i></i><i></i><i></i><i></i><i></i></div>
+      </aside>
     </section>
 
-    <section id="pilares" class="section">
-      <div class="center reveal">
-        <p class="eyebrow">Três pilares</p>
-        <h3>Controle, dados e decisão.</h3>
-      </div>
-      <div class="cards">
-        <article class="card reveal">
-          <div class="card-icon">⚙️</div>
-          <h4>Automação Industrial</h4>
-          <p>Controle inteligente de irrigação, climatização, preparo de soluções nutritivas e processos automatizados.</p>
-        </article>
-        <article class="card reveal">
-          <div class="card-icon">📊</div>
-          <h4>Monitoramento em Tempo Real</h4>
-          <p>Acompanhe continuamente os principais parâmetros do cultivo por dashboards intuitivos e indicadores precisos.</p>
-        </article>
-        <article class="card reveal">
-          <div class="card-icon">🧬</div>
-          <h4>Banco Genético</h4>
-          <p>Organize genéticas, históricos de cultivo, linhagens e resultados para decisões baseadas em dados.</p>
-        </article>
-      </div>
-    </section>
-
-    <section class="section statement reveal">
-      <h3>Desenvolvido para quem busca precisão.</h3>
+    <section id="plataforma" class="section reveal">
+      <span class="section-kicker">Plataforma</span>
+      <h2>Precisão em cada decisão.</h2>
       <p>
-        O GrowOS foi concebido para produtores que enxergam o cultivo como um processo técnico, onde cada decisão influencia diretamente a qualidade e a produtividade.
+        O GrowOS Core integra automação industrial, monitoramento contínuo e gestão genética
+        em uma plataforma criada para cultivos profissionais.
       </p>
     </section>
 
-    <section class="cta reveal">
-      <h3>Pronto para elevar o nível do seu cultivo?</h3>
-      <a href="https://app.growos.com.br" class="button primary">Entrar no GrowOS</a>
+    <section id="pilares" class="cards reveal">
+      <article>
+        <span>⚙️</span>
+        <h3>Automação Industrial</h3>
+        <p>Controle de processos essenciais com lógica confiável, operação padronizada e resposta inteligente.</p>
+      </article>
+      <article>
+        <span>📊</span>
+        <h3>Monitoramento em Tempo Real</h3>
+        <p>Dashboards objetivos para acompanhar indicadores críticos e tomar decisões com segurança.</p>
+      </article>
+      <article>
+        <span>🧬</span>
+        <h3>Banco Genético</h3>
+        <p>Organização de genéticas, ciclos, histórico e resultados para gestão técnica do cultivo.</p>
+      </article>
+    </section>
+
+    <section id="contato" class="contact reveal">
+      <div>
+        <span class="section-kicker">Fale comigo</span>
+        <h2>Quer conhecer o GrowOS?</h2>
+        <p>Envie uma mensagem para conversar sobre automação, monitoramento e gestão de cultivo profissional.</p>
+      </div>
+      <form action="mailto:gabriellino@gmail.com" method="post" enctype="text/plain">
+        <input type="text" name="nome" placeholder="Nome" required />
+        <input type="text" name="empresa" placeholder="Empresa" />
+        <input type="text" name="cidade" placeholder="Cidade" />
+        <input type="tel" name="whatsapp" placeholder="WhatsApp" />
+        <input type="email" name="email" placeholder="E-mail" required />
+        <textarea name="mensagem" placeholder="Mensagem" rows="5" required></textarea>
+        <button class="btn primary" type="submit">Solicitar contato</button>
+      </form>
     </section>
   </main>
 
-  <footer class="footer">
+  <footer>
     <strong>GrowOS Core</strong>
     <span>Tecnologia que cultiva resultados.</span>
     <small>© 2026 GrowOS. Desenvolvido no Brasil.</small>
