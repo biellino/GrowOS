@@ -1,162 +1,111 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>GrowOS</title>
-
-    <style>
-
-        *{
-            margin:0;
-            padding:0;
-            box-sizing:border-box;
-            font-family:Arial, Helvetica, sans-serif;
-        }
-
-        body{
-
-            background:#0d1117;
-
-            color:white;
-
-            display:flex;
-
-            justify-content:center;
-
-            align-items:center;
-
-            height:100vh;
-
-        }
-
-        .container{
-
-            text-align:center;
-
-        }
-
-        h1{
-
-            font-size:60px;
-
-            margin-top:25px;
-
-            letter-spacing:3px;
-
-        }
-
-        h2{
-
-            margin-top:18px;
-
-            color:#8b949e;
-
-            font-weight:300;
-
-            font-size:22px;
-
-        }
-
-        .btn{
-
-            margin-top:60px;
-
-            display:inline-block;
-
-            background:#2ea043;
-
-            color:white;
-
-            text-decoration:none;
-
-            padding:18px 55px;
-
-            border-radius:10px;
-
-            font-size:22px;
-
-            transition:.3s;
-
-        }
-
-        .btn:hover{
-
-            background:#238636;
-
-        }
-
-        .version{
-
-            position:absolute;
-
-            bottom:25px;
-
-            width:100%;
-
-            text-align:center;
-
-            color:#6e7681;
-
-            font-size:14px;
-
-        }
-
-        .logo{
-
-            width:180px;
-
-            height:180px;
-
-            border-radius:50%;
-
-            background:#161b22;
-
-            display:flex;
-
-            align-items:center;
-
-            justify-content:center;
-
-            margin:auto;
-
-            font-size:72px;
-
-        }
-
-    </style>
-
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>GrowOS Core | Tecnologia que cultiva resultados</title>
+  <meta name="description" content="GrowOS Core: plataforma para automação industrial, monitoramento em tempo real e banco genético para cultivos profissionais." />
+  <link rel="stylesheet" href="css/style.css" />
 </head>
-
 <body>
+  <header class="header">
+    <div class="brand">
+      <div class="brand-icon">🌱</div>
+      <div>
+        <strong>GrowOS</strong>
+        <span>Core</span>
+      </div>
+    </div>
+    <nav class="nav">
+      <a href="#plataforma">Plataforma</a>
+      <a href="#pilares">Pilares</a>
+      <a href="https://app.growos.com.br" class="nav-button">Entrar</a>
+    </nav>
+  </header>
 
-<div class="container">
+  <main>
+    <section class="hero">
+      <div class="hero-glow"></div>
+      <div class="hero-content fade-in">
+        <p class="eyebrow">GrowOS Core</p>
+        <h1>GrowOS</h1>
+        <h2>Tecnologia que cultiva resultados.</h2>
+        <p class="hero-text">
+          A plataforma desenvolvida para automatizar, monitorar e gerenciar cultivos profissionais com precisão, confiabilidade e simplicidade.
+        </p>
+        <div class="hero-actions">
+          <a href="https://app.growos.com.br" class="button primary">Entrar no GrowOS</a>
+          <a href="#plataforma" class="button secondary">Conheça a plataforma</a>
+        </div>
+      </div>
+    </section>
 
-<div class="logo">
+    <section id="plataforma" class="section split">
+      <div class="section-text reveal">
+        <p class="eyebrow">Cultivo inteligente</p>
+        <h3>O futuro do cultivo profissional.</h3>
+        <p>
+          O GrowOS Core reúne automação industrial, monitoramento em tempo real e gestão genética em uma única plataforma, oferecendo controle completo sobre cada etapa do cultivo.
+        </p>
+      </div>
+      <div class="dashboard-card reveal">
+        <div class="dashboard-topbar">
+          <span></span><span></span><span></span>
+        </div>
+        <div class="dashboard-grid">
+          <div class="metric"><small>Temperatura</small><strong>25,0 °C</strong></div>
+          <div class="metric"><small>Umidade</small><strong>65%</strong></div>
+          <div class="metric"><small>pH</small><strong>5,92</strong></div>
+          <div class="metric"><small>EC</small><strong>1,83</strong></div>
+          <div class="metric wide"><small>Status</small><strong>Ambiente estável</strong></div>
+          <div class="chart"></div>
+        </div>
+      </div>
+    </section>
 
-🌱
+    <section id="pilares" class="section">
+      <div class="center reveal">
+        <p class="eyebrow">Três pilares</p>
+        <h3>Controle, dados e decisão.</h3>
+      </div>
+      <div class="cards">
+        <article class="card reveal">
+          <div class="card-icon">⚙️</div>
+          <h4>Automação Industrial</h4>
+          <p>Controle inteligente de irrigação, climatização, preparo de soluções nutritivas e processos automatizados.</p>
+        </article>
+        <article class="card reveal">
+          <div class="card-icon">📊</div>
+          <h4>Monitoramento em Tempo Real</h4>
+          <p>Acompanhe continuamente os principais parâmetros do cultivo por dashboards intuitivos e indicadores precisos.</p>
+        </article>
+        <article class="card reveal">
+          <div class="card-icon">🧬</div>
+          <h4>Banco Genético</h4>
+          <p>Organize genéticas, históricos de cultivo, linhagens e resultados para decisões baseadas em dados.</p>
+        </article>
+      </div>
+    </section>
 
-</div>
+    <section class="section statement reveal">
+      <h3>Desenvolvido para quem busca precisão.</h3>
+      <p>
+        O GrowOS foi concebido para produtores que enxergam o cultivo como um processo técnico, onde cada decisão influencia diretamente a qualidade e a produtividade.
+      </p>
+    </section>
 
-<h1>GrowOS</h1>
+    <section class="cta reveal">
+      <h3>Pronto para elevar o nível do seu cultivo?</h3>
+      <a href="https://app.growos.com.br" class="button primary">Entrar no GrowOS</a>
+    </section>
+  </main>
 
-<h2>Tecnologia que cultiva resultados.</h2>
+  <footer class="footer">
+    <strong>GrowOS Core</strong>
+    <span>Tecnologia que cultiva resultados.</span>
+    <small>© 2026 GrowOS. Desenvolvido no Brasil.</small>
+  </footer>
 
-<a href="#" class="btn">
-
-Entrar
-
-</a>
-
-</div>
-
-<div class="version">
-
-GrowOS® v1.0
-
-</div>
-
+  <script src="js/script.js"></script>
 </body>
-
 </html>
