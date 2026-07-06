@@ -1,5 +1,5 @@
 # GrowOS Core
 
-Site oficial do GrowOS Core.
+Site institucional minimalista da GrowOS Core.
 
-**Tecnologia que cultiva resultados.**
+**Slogan:** Tecnologia que cultiva resultados.
