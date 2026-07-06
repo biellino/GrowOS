@@ -1,4 +1,4 @@
-# GrowOS Core
+# GrowOS Core Website
 
 Site oficial do GrowOS Core.
 
