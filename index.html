@@ -41,7 +41,7 @@
         </p>
       </div>
 
-      <div class="pillars">
+      <div class="pillars" aria-label="Pilares do GrowOS">
         <article class="pillar-card reveal">
           <span class="icon">⚙</span>
           <h2>Automação Industrial</h2>
@@ -59,22 +59,34 @@
           <h2>Banco Genético</h2>
           <p>Histórico, rastreabilidade e organização técnica das genéticas cultivadas.</p>
         </article>
-      
-        <article class="pillar-card reveal contact-card">
-          <span class="icon">✉</span>
-          <h2>Fale Conosco</h2>
-          <p>Solicite uma demonstração ou converse conosco sobre o GrowOS.</p>
-          <a class="contact-link" href="#contato">Entrar em contato →</a>
-        </article>
+      </div>
 
+      <div class="contact-callout reveal">
+        <p>Quer conhecer o GrowOS?</p>
+        <a class="btn btn-secondary" href="#contato">Solicitar demonstração</a>
       </div>
     </section>
 
     <section class="contact-section" id="contato">
       <div class="section-header reveal">
-<h1>Fale Conosco</h1><p>Preencha o formulário abaixo. Retornaremos o mais breve possível.</p></div>
-<form class="contact-form" action="https://formsubmit.co/gabriellino@gmail.com" method="POST">
-<input type="hidden" name="_subject" value="Novo contato GrowOS"/><input type="hidden" name="_captcha" value="false"/><input type="text" name="Nome" placeholder="Nome" required><input type="email" name="Email" placeholder="E-mail" required><input type="text" name="Empresa" placeholder="Empresa"><input type="text" name="WhatsApp" placeholder="WhatsApp"><textarea name="Mensagem" placeholder="Mensagem" required></textarea><button class="btn btn-primary" type="submit">Enviar mensagem</button></form>
+        <span class="eyebrow">Contato</span>
+        <h1>Fale Conosco</h1>
+        <p>Preencha o formulário abaixo. Retornaremos o mais breve possível.</p>
+      </div>
+
+      <form class="contact-form reveal" action="https://formsubmit.co/gabriellino@gmail.com" method="POST">
+        <input type="hidden" name="_subject" value="Novo contato pelo site GrowOS" />
+        <input type="hidden" name="_captcha" value="false" />
+        <input type="hidden" name="_template" value="table" />
+
+        <input type="text" name="Nome" placeholder="Nome" required />
+        <input type="email" name="Email" placeholder="E-mail" required />
+        <input type="text" name="Empresa" placeholder="Empresa" />
+        <input type="tel" name="WhatsApp" placeholder="WhatsApp" />
+        <textarea name="Mensagem" placeholder="Mensagem" required></textarea>
+
+        <button class="btn btn-primary" type="submit">Enviar mensagem</button>
+      </form>
     </section>
   </main>
 
