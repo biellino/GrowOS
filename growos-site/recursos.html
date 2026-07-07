@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Recursos — GrowOS Core</title>
+<meta name="description" content="Conheça os módulos do GrowOS Core: rastreabilidade, conformidade regulatória, cultivo, estoque, associados e relatórios.">
+<link rel="icon" href="assets/logo.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+
+<div class="statusbar">
+  <div class="wrap">
+    <div class="status-live"><span class="dot-live"></span> SISTEMA ONLINE</div>
+    <div class="status-items">
+      <span>UPTIME 99.98%</span>
+      <span>ESTUFAS CONECTADAS: 214</span>
+      <span>CONFORMIDADE: EM DIA</span>
+    </div>
+  </div>
+</div>
+
+<header class="site">
+  <div class="wrap">
+    <a class="brand" href="index.html">
+      <img src="assets/logo.png" alt="GrowOS Core">
+      <span class="brand-text">
+        <span class="name">Grow<b>OS</b> Core</span>
+        <span class="tag">Tecnologia que cultiva resultados</span>
+      </span>
+    </a>
+    <button class="nav-toggle" aria-label="Abrir menu" aria-expanded="false">☰</button>
+    <nav class="main">
+      <a href="index.html">Home</a>
+      <a href="recursos.html" class="active">Recursos</a>
+      <a href="precos.html">Preços</a>
+      <a href="sobre.html">Sobre</a>
+      <a href="contato.html">Contato</a>
+      <a href="contato.html" class="nav-cta">Agendar demonstração</a>
+    </nav>
+  </div>
+</header>
+
+<section style="padding-top:64px; padding-bottom:64px;">
+  <div class="wrap">
+    <span class="eyebrow">Recursos</span>
+    <h1 style="font-size:clamp(30px,4vw,46px); margin-top:16px; max-width:680px;">Seis módulos. Um só lugar para gerenciar o cultivo inteiro.</h1>
+    <p style="margin-top:18px; color:var(--ink-300); max-width:560px; font-size:16.5px;">Cada módulo do GrowOS Core resolve um problema específico da rotina de cultivo — e todos compartilham a mesma base de dados, sem retrabalho entre planilhas.</p>
+  </div>
+</section>
+
+<section>
+  <div class="wrap two-col">
+    <div>
+      <span class="eyebrow">Módulo 01</span>
+      <h2 style="font-size:clamp(24px,3vw,32px); margin-top:14px;">Rastreabilidade</h2>
+      <p style="margin-top:16px; color:var(--ink-300);">Cada planta recebe um código de lote no plantio e carrega seu histórico completo até a entrega — genética, sala, manejo, colheita e destino final.</p>
+      <ul style="margin-top:22px; display:flex; flex-direction:column; gap:12px;">
+        <li style="display:flex; gap:10px; color:var(--ink-300); font-size:15px;"><span style="color:var(--leaf-400); font-family:var(--font-mono);">›</span> Código individual por lote e por planta-mãe</li>
+        <li style="display:flex; gap:10px; color:var(--ink-300); font-size:15px;"><span style="color:var(--leaf-400); font-family:var(--font-mono);">›</span> Histórico completo pesquisável a qualquer momento</li>
+        <li style="display:flex; gap:10px; color:var(--ink-300); font-size:15px;"><span style="color:var(--leaf-400); font-family:var(--font-mono);">›</span> Vínculo automático entre cultivo, colheita e estoque</li>
+      </ul>
+    </div>
+    <div class="console">
+      <div class="console-bar"><span>growos://rastreabilidade/lote</span><div class="console-dots"><span></span><span></span><span></span></div></div>
+      <div class="console-body">
+        <div class="console-line"><span class="k">lote</span><span class="v">GC-2026-0714</span></div>
+        <div class="console-line"><span class="k">genética</span><span class="v">CBD Skunk Haze</span></div>
+        <div class="console-line"><span class="k">origem</span><span class="v">sala de matrizes 02</span></div>
+        <div class="console-line"><span class="k">dias_em_cultivo</span><span class="v">63</span></div>
+        <div class="console-line"><span class="k">responsável</span><span class="v">equipe cultivo A</span></div>
+        <div class="console-line"><span class="k">status</span><span class="v ok">RASTREADO</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap two-col">
+    <div class="console" style="order:2;">
+      <div class="console-bar"><span>growos://conformidade</span><div class="console-dots"><span></span><span></span><span></span></div></div>
+      <div class="console-body">
+        <div class="console-line"><span class="k">relatório_mensal</span><span class="v ok">GERADO</span></div>
+        <div class="console-line"><span class="k">período</span><span class="v">06/2026</span></div>
+        <div class="console-line"><span class="k">lotes_incluídos</span><span class="v">18</span></div>
+        <div class="console-line"><span class="k">divergências</span><span class="v ok">NENHUMA</span></div>
+        <div class="console-line"><span class="k">exportação</span><span class="v">PDF + planilha</span></div>
+      </div>
+    </div>
+    <div style="order:1;">
+      <span class="eyebrow">Módulo 02</span>
+      <h2 style="font-size:clamp(24px,3vw,32px); margin-top:14px;">Conformidade regulatória</h2>
+      <p style="margin-top:16px; color:var(--ink-300);">O sistema organiza os dados do cultivo no formato exigido pelos órgãos reguladores, para que o fechamento mensal seja uma conferência — não uma reconstrução manual.</p>
+      <ul style="margin-top:22px; display:flex; flex-direction:column; gap:12px;">
+        <li style="display:flex; gap:10px; color:var(--ink-300); font-size:15px;"><span style="color:var(--leaf-400); font-family:var(--font-mono);">›</span> Relatórios gerados a partir dos registros já lançados</li>
+        <li style="display:flex; gap:10px; color:var(--ink-300); font-size:15px;"><span style="color:var(--leaf-400); font-family:var(--font-mono);">›</span> Trilha de auditoria com data, hora e responsável</li>
+        <li style="display:flex; gap:10px; color:var(--ink-300); font-size:15px;"><span style="color:var(--leaf-400); font-family:var(--font-mono);">›</span> Exportação pronta para envio ao órgão competente</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap two-col">
+    <div>
+      <span class="eyebrow">Módulo 03</span>
+      <h2 style="font-size:clamp(24px,3vw,32px); margin-top:14px;">Cultivo & ambiente</h2>
+      <p style="margin-top:16px; color:var(--ink-300);">Registre condições de cada sala ou estufa e acompanhe a fase de crescimento de cada lote sem depender de anotações em papel.</p>
+      <ul style="margin-top:22px; display:flex; flex-direction:column; gap:12px;">
+        <li style="display:flex; gap:10px; color:var(--ink-300); font-size:15px;"><span style="color:var(--leaf-400); font-family:var(--font-mono);">›</span> Temperatura, umidade e VPD por ambiente</li>
+        <li style="display:flex; gap:10px; color:var(--ink-300); font-size:15px;"><span style="color:var(--leaf-400); font-family:var(--font-mono);">›</span> Linha do tempo de fases: germinação, vegetativo, floração</li>
+        <li style="display:flex; gap:10px; color:var(--ink-300); font-size:15px;"><span style="color:var(--leaf-400); font-family:var(--font-mono);">›</span> Alertas quando um parâmetro sai da faixa configurada</li>
+      </ul>
+    </div>
+    <div class="console">
+      <div class="console-bar"><span>growos://ambiente/estufa-03</span><div class="console-dots"><span></span><span></span><span></span></div></div>
+      <div class="console-body">
+        <div class="console-line"><span class="k">temperatura</span><span class="v">24.6°C</span></div>
+        <div class="console-line"><span class="k">umidade_relativa</span><span class="v">61%</span></div>
+        <div class="console-line"><span class="k">vpd</span><span class="v">1.10 kPa</span></div>
+        <div class="console-line"><span class="k">fase</span><span class="v">floração — semana 5</span></div>
+        <div class="console-line"><span class="k">último_registro</span><span class="v">há 4 min</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap two-col">
+    <div class="console" style="order:2;">
+      <div class="console-bar"><span>growos://estoque</span><div class="console-dots"><span></span><span></span><span></span></div></div>
+      <div class="console-body">
+        <div class="console-line"><span class="k">substrato_coco</span><span class="v ok">280 kg</span></div>
+        <div class="console-line"><span class="k">nutriente_floração</span><span class="v warn">baixo — 4 dias</span></div>
+        <div class="console-line"><span class="k">embalagens_lote</span><span class="v ok">1.200 un.</span></div>
+        <div class="console-line"><span class="k">próxima_compra_sugerida</span><span class="v">nutriente_floração</span></div>
+      </div>
+    </div>
+    <div style="order:1;">
+      <span class="eyebrow">Módulo 04</span>
+      <h2 style="font-size:clamp(24px,3vw,32px); margin-top:14px;">Estoque & insumos</h2>
+      <p style="margin-top:16px; color:var(--ink-300);">Substrato, nutrientes e embalagens ficam vinculados ao consumo real de cada lote, com alertas antes que algo essencial acabe.</p>
+      <ul style="margin-top:22px; display:flex; flex-direction:column; gap:12px;">
+        <li style="display:flex; gap:10px; color:var(--ink-300); font-size:15px;"><span style="color:var(--leaf-400); font-family:var(--font-mono);">›</span> Consumo automático descontado por lote</li>
+        <li style="display:flex; gap:10px; color:var(--ink-300); font-size:15px;"><span style="color:var(--leaf-400); font-family:var(--font-mono);">›</span> Alerta antecipado de ruptura de estoque</li>
+        <li style="display:flex; gap:10px; color:var(--ink-300); font-size:15px;"><span style="color:var(--leaf-400); font-family:var(--font-mono);">›</span> Histórico de custo de insumo por lote produzido</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap two-col">
+    <div>
+      <span class="eyebrow">Módulo 05</span>
+      <h2 style="font-size:clamp(24px,3vw,32px); margin-top:14px;">Associados & pacientes</h2>
+      <p style="margin-top:16px; color:var(--ink-300);">Cadastro, prescrições e histórico de acompanhamento organizados por associado, com controle de acesso conforme o perfil de cada pessoa da equipe.</p>
+      <ul style="margin-top:22px; display:flex; flex-direction:column; gap:12px;">
+        <li style="display:flex; gap:10px; color:var(--ink-300); font-size:15px;"><span style="color:var(--leaf-400); font-family:var(--font-mono);">›</span> Cadastro completo com documentos e prescrições</li>
+        <li style="display:flex; gap:10px; color:var(--ink-300); font-size:15px;"><span style="color:var(--leaf-400); font-family:var(--font-mono);">›</span> Histórico de entregas vinculado ao associado</li>
+        <li style="display:flex; gap:10px; color:var(--ink-300); font-size:15px;"><span style="color:var(--leaf-400); font-family:var(--font-mono);">›</span> Permissões de acesso por função na equipe</li>
+      </ul>
+    </div>
+    <div class="console">
+      <div class="console-bar"><span>growos://associados</span><div class="console-dots"><span></span><span></span><span></span></div></div>
+      <div class="console-body">
+        <div class="console-line"><span class="k">associados_ativos</span><span class="v ok">348</span></div>
+        <div class="console-line"><span class="k">prescrições_a_vencer</span><span class="v warn">12</span></div>
+        <div class="console-line"><span class="k">entregas_no_mês</span><span class="v">402</span></div>
+        <div class="console-line"><span class="k">perfis_de_acesso</span><span class="v">5</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap two-col">
+    <div class="console" style="order:2;">
+      <div class="console-bar"><span>growos://relatorios</span><div class="console-dots"><span></span><span></span><span></span></div></div>
+      <div class="console-body">
+        <div class="console-line"><span class="k">produtividade_média</span><span class="v ok">+8% vs. mês anterior</span></div>
+        <div class="console-line"><span class="k">perda_por_lote</span><span class="v">3.1%</span></div>
+        <div class="console-line"><span class="k">custo_por_grama</span><span class="v">calculado automaticamente</span></div>
+        <div class="console-line"><span class="k">painéis_salvos</span><span class="v">7</span></div>
+      </div>
+    </div>
+    <div style="order:1;">
+      <span class="eyebrow">Módulo 06</span>
+      <h2 style="font-size:clamp(24px,3vw,32px); margin-top:14px;">Relatórios & indicadores</h2>
+      <p style="margin-top:16px; color:var(--ink-300);">Painéis de produtividade, perdas e custo por lote — construídos a partir dos mesmos dados usados na conformidade, sem exportar e recalcular em planilha à parte.</p>
+      <ul style="margin-top:22px; display:flex; flex-direction:column; gap:12px;">
+        <li style="display:flex; gap:10px; color:var(--ink-300); font-size:15px;"><span style="color:var(--leaf-400); font-family:var(--font-mono);">›</span> Indicadores por lote, sala ou período</li>
+        <li style="display:flex; gap:10px; color:var(--ink-300); font-size:15px;"><span style="color:var(--leaf-400); font-family:var(--font-mono);">›</span> Painéis salvos e compartilháveis com a diretoria</li>
+        <li style="display:flex; gap:10px; color:var(--ink-300); font-size:15px;"><span style="color:var(--leaf-400); font-family:var(--font-mono);">›</span> Exportação em PDF e planilha</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section class="cta-band">
+  <div class="wrap">
+    <h2>Quer ver esses módulos com os dados da sua operação?</h2>
+    <p>Marcamos uma demonstração guiada, sem compromisso.</p>
+    <div class="cta-row">
+      <a href="contato.html" class="btn btn-primary">Agendar demonstração</a>
+      <a href="precos.html" class="btn btn-ghost">Ver planos</a>
+    </div>
+  </div>
+</section>
+
+<footer class="site">
+  <div class="wrap">
+    <div class="foot-top">
+      <div class="foot-brand">
+        <a class="brand" href="index.html">
+          <img src="assets/logo.png" alt="GrowOS Core">
+        </a>
+        <p>Sistema de gestão para associações e empresas de cultivo de cannabis medicinal.</p>
+      </div>
+      <div>
+        <h5>Produto</h5>
+        <ul>
+          <li><a href="recursos.html">Recursos</a></li>
+          <li><a href="precos.html">Preços</a></li>
+          <li><a href="index.html#modulos">Módulos</a></li>
+        </ul>
+      </div>
+      <div>
+        <h5>Empresa</h5>
+        <ul>
+          <li><a href="sobre.html">Sobre</a></li>
+          <li><a href="contato.html">Contato</a></li>
+        </ul>
+      </div>
+      <div>
+        <h5>Contato</h5>
+        <ul>
+          <li><a href="mailto:contato@growos.com.br">contato@growos.com.br</a></li>
+          <li><a href="https://www.growos.com.br">www.growos.com.br</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="foot-bottom">
+      <span>© <span data-year></span> GrowOS Core. Todos os direitos reservados.</span>
+      <span>growos.com.br</span>
+    </div>
+  </div>
+</footer>
+
+<script src="assets/main.js"></script>
+</body>
+</html>
