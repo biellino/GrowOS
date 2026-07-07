@@ -130,3 +130,53 @@ h1{font-size:clamp(38px,6vw,76px);line-height:.96;letter-spacing:-.065em;margin-
 .contact-form button{grid-column:1/-1;justify-self:center}
 .contact-form input,.contact-form textarea{background:#111;border:1px solid rgba(124,255,58,.2);border-radius:14px;padding:16px;color:#fff;font:inherit}
 @media(max-width:640px){.contact-form{grid-template-columns:1fr}}
+
+.contact-form {
+  width: min(92%, 820px);
+  margin: 40px auto 80px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 16px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 18px 20px;
+  border-radius: 16px;
+  border: 1px solid rgba(104, 210, 59, 0.25);
+  background: rgba(255, 255, 255, 0.06);
+  color: #fff;
+  font-size: 15px;
+  outline: none;
+}
+
+.contact-form textarea {
+  grid-column: span 2;
+  min-height: 140px;
+  resize: vertical;
+}
+
+.contact-form button {
+  grid-column: span 2;
+  justify-self: center;
+  padding: 18px 44px;
+  border: 0;
+  border-radius: 999px;
+  background: #68d23b;
+  color: #061006;
+  font-weight: 800;
+  cursor: pointer;
+  box-shadow: 0 0 35px rgba(104, 210, 59, 0.25);
+}
+
+@media (max-width: 760px) {
+  .contact-form {
+    grid-template-columns: 1fr;
+  }
+
+  .contact-form textarea,
+  .contact-form button {
+    grid-column: span 1;
+  }
+}
